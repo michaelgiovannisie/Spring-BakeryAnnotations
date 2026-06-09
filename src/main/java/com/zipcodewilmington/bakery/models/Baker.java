@@ -1,9 +1,14 @@
 package com.zipcodewilmington.bakery.models;
 
-
 import java.util.Objects;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Baker {
+
+    @Id
     private Long id;
 
     private String name;
